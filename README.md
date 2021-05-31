@@ -1,25 +1,26 @@
-# React JS Landing Page Template
+# jsonstorage-demo-react
 
+## Live Demo
 
-### <a href="https://react-landing-page-template.herokuapp.com">LIVE DEMO</a> 
+[https://jsonstorage-demo-react.netlify.app/](https://jsonstorage-demo-react.netlify.app/)
 
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
+Try with query string:
 
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
+- ?persona=developer
+- ?persona=marketer
 
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
+## How it was built
 
+This project was created by taking sample React website from [here](https://github.com/issaafalkattan/React-Landing-Page-Template), then:
 
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
+```npm install @jsonstorage/personalize-react```
 
-##### Issaaf kattan
+and updating the code to use personalized title and text:
+
+![usage](/img/usage.PNG)
+
+## Back-end configuration:
+
+The data is stored here: [https://app.jsonstorage.net/](https://app.jsonstorage.net/)
+
+![backend](/img/backend.PNG)
