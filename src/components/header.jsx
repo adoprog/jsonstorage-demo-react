@@ -1,7 +1,7 @@
 import { usePersonalization } from "@jsonstorage/personalize-react";
 
 const config = {
-  id: "fa0f4907-6c9a-4ba4-82ac-3658ff5ed760"
+  id: "5725bb31-8a05-4754-ba35-8f12024e78e4/fa0f4907-6c9a-4ba4-82ac-3658ff5ed760"
 };
 
 export const Header = (props) => {
